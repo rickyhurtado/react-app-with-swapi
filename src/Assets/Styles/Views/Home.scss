@@ -1,0 +1,32 @@
+.home-page {
+  position: relative;
+  text-align: center;
+  &-header {
+    padding: 20px;
+    @media (max-width: 600px) {
+      padding: 0;
+    }
+  }
+  &-logo {
+    height: 300px;
+    @media (max-width: 600px) {
+      height: auto;
+      width: 100%;
+    }
+  }
+  .page-title {
+    font-size: 1.5em;
+    font-weight: normal;
+  }
+  @media (max-width: 470px) {
+    .nav-button {
+      display: block;
+      font-size: 25px;
+      margin-top: 15px;
+      width: inherit;
+      &:first-child {
+        margin: 0;
+      }
+    }
+  }
+}

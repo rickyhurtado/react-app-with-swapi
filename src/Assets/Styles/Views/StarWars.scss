@@ -1,0 +1,27 @@
+.star-wars {
+  &-list {
+    list-style: none;
+    padding: 0;
+    &-item {
+      font-size: 20px;
+      padding: 10px 0;
+      @media (max-width: 420px) {
+        font-size: 18px;
+        padding: 7px 0;
+      }
+      a {
+        &:hover {
+          font-weight: bold;
+        }
+      }
+      &-small {
+        font-size: 16px;
+        padding: 5px;
+        @media (max-width: 420px) {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+

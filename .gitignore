@@ -1,0 +1,3 @@
+node_modules
+src/Assets/Styles/**/*.css
+!src/Assets/Styles/Style.css

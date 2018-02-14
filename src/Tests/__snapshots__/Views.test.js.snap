@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StarWars Views.Film is rendered 1`] = `
+<div
+  className="data-list-item"
+>
+  <div>
+    <h1
+      className="page-title"
+    >
+      Films
+    </h1>
+    <p>
+      Loading...
+    </p>
+  </div>
+</div>
+`;
+
+exports[`StarWars Views.Films is rendered 1`] = `
+<div>
+  <h1
+    className="page-title"
+  >
+    Films
+  </h1>
+  <p>
+    Loading Star Wars Films...
+  </p>
+</div>
+`;
+
+exports[`StarWars Views.Home is rendered 1`] = `
+<div
+  className="home-page"
+>
+  <header
+    className="home-page-header"
+  >
+    <img
+      alt="StarWars Logo"
+      className="home-page-logo"
+      src="Star_Wars_Logo.png"
+    />
+    <h1
+      className="page-title"
+    >
+      React App with SWAPI
+    </h1>
+  </header>
+  <nav>
+    <a
+      className="nav-button"
+      href="/people"
+      onClick={[Function]}
+    >
+      People
+    </a>
+    <a
+      className="nav-button"
+      href="/films"
+      onClick={[Function]}
+    >
+      Films
+    </a>
+  </nav>
+</div>
+`;
+
+exports[`StarWars Views.PageNotFound is rendered 1`] = `
+<div
+  className="page-not-found-page"
+>
+  <h1
+    className="page-title"
+  >
+    404
+  </h1>
+  <nav>
+    <a
+      className="nav-button single"
+      href="/"
+      onClick={[Function]}
+    >
+      Home
+    </a>
+  </nav>
+</div>
+`;
+
+exports[`StarWars Views.People is rendered 1`] = `
+<div>
+  <h1
+    className="page-title"
+  >
+    People
+  </h1>
+  <p>
+    Loading Star Wars People...
+  </p>
+</div>
+`;
