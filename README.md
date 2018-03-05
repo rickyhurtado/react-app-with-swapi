@@ -1,5 +1,7 @@
 # React App with SWAPI (Star Wars API)
-Required node version is `9.2.1`. This project is based on [Node API and Client Boilerplate](https://github.com/rickyhurtado/node-api-and-client-boilerplate).
+Required node version is `9.2.1`. This project is based on
+[Create React App Boilerplate](https://github.com/antwan-services/create-react-app-boilerplate)
+by [Anthub Services](https://github.com/anthub-services).
 
 ## Star Wars API
 
